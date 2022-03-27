@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- Additional Information knowing that this file is html file -->
+<html> <!-- Opening Tag of html--> <!-- Root Element -->
+<head> <!--Opening Tag of head --> 
+	<meta charset="utf-8"> <!-- default character set -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for page responsiveness -->
+	<title>Lester Dalaya | Developer Portfolio</title>
+
+	<!-- Google Fonts -->					<!-- first to load -->
+	<!-- ctrl+shift+v to paste -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap Css -->					<!-- second to load -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+	<!-- external css -->					
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+
+</head> <!--Ending Tag of head -->
+
+<body> 
+	<!-- ctrl + shift + / - allows us to add comments -->
+	<!-- id unique identifier for style--> <!-- 1 unique element --> <!-- class is for multiple element -->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="portfolio-nav">
+			<ul class="navbar-nav mx-auto">
+				<li>
+					<a class="nav-link" href="#landing">HOME</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#gallery">GALLERY</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- container -->
+	<div class="container-fluid"> <!-- Content of the page --> 
+		<section  id="landing" class="text-center jumbotron bg-transparent mt-3"> 
+				<!--
+					to add styles from bootstrap, we add specific classes from bootsrap 
+				 -->
+			<h1>John Lester Dalaya</h1>
+			<p>Hi! My name is Lester and I love to play nft games</p>
+			<img src="./images/img1.jpg" class="img-fluid"> <!-- self closing tag -->
+		</section>
+		<!-- end of landing -->
+
+		<section id="gallery" class="text-center bg-dark text-white">
+			<!-- We can creat our own classes -->
+			<div class="tools">
+				<h2>Languages I Speak</h2>
+				<ul> <!-- unorder list -->
+					<li>HTML</li> <!-- Html is not a programming Language becauase its a Markup Language-->
+					<li>CSS</li> <!-- CSS is not a programming language because its a Stylesheet Language -->
+				</ul>
+			</div>	
+			<div class="tools">
+				<h2>Tools I Use</h2>
+				<ul> <!-- ctrt + shift + d to copy line to the next line -->
+					<li>Git Bash/Terminal</li>
+					<li>Sublime Text</li>
+					<li>Github</li>
+					<li>Google Chrom</li>
+				</ul>
+			</div>
+		</section>
+		<!-- end of gallery -->
+	</div>
+	
+	<!-- Bootstrap JS Dependencies -->
+	<!-- load after the contents  -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html> <!-- Ending Tag of html-->
+<!-- ctrl+shift+k to delete a line -->
